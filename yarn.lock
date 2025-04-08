@@ -5024,8 +5024,8 @@ __metadata:
   linkType: hard
 
 "@vector-im/compound-web@npm:^7.2.0":
-  version: 7.6.2
-  resolution: "@vector-im/compound-web@npm:7.6.2"
+  version: 7.10.1
+  resolution: "@vector-im/compound-web@npm:7.10.1"
   dependencies:
     "@floating-ui/react": "npm:^0.27.0"
     "@radix-ui/react-context-menu": "npm:^2.2.1"
@@ -5040,12 +5040,12 @@ __metadata:
     "@fontsource/inconsolata": ^5
     "@fontsource/inter": ^5
     "@types/react": "*"
-    "@vector-im/compound-design-tokens": ">=1.6.1 <4.0.0"
+    "@vector-im/compound-design-tokens": ">=1.6.1 <5.0.0"
     react: ^18 || ^19.0.0
   peerDependenciesMeta:
     "@types/react":
       optional: true
-  checksum: 10c0/573eef3011bed9c9acf9885d0e85941e7e2b9b1857103b14484911bb722a7ee02e0d168f1a554e97cb87886c02c6fb87f1bfeb9eac945e86d06e22e4360562d8
+  checksum: 10c0/775dcb94cd7b8919945b53a454039e7c138a462966066bd1f7440dd69843e7226e314b46cdb35a8f2919f922f74e44769c8007566b951ad04632312cb22896dd
   languageName: node
   linkType: hard
 
