@@ -203,7 +203,7 @@ export const RegisterPage: FC = () => {
                   data-testid="register_confirm_password"
                 />
               </FieldRow>
-              <Text size="sm">
+              {/* <Text size="sm">
                 <Trans i18nKey="recaptcha_caption">
                   This site is protected by ReCAPTCHA and the Google{" "}
                   <ExternalLink href="https://www.google.com/policies/privacy/">
@@ -220,7 +220,7 @@ export const RegisterPage: FC = () => {
                     End User Licensing Agreement (EULA)
                   </ExternalLink>
                 </Trans>
-              </Text>
+              </Text> */}
               {error && (
                 <FieldRow>
                   <ErrorMessage error={error} />
