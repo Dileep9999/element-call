@@ -12,7 +12,7 @@ exports[`ConnectionLostError: Action handling should reset error state 1`] = `
         class="nav leftNav"
       >
         <a
-          aria-label="Element Call Home"
+          aria-label="Call Home"
           class="headerLogo"
           data-discover="true"
           href="/"
@@ -25,7 +25,7 @@ exports[`ConnectionLostError: Action handling should reset error state 1`] = `
             xmlns="http://www.w3.org/2000/svg"
           >
             <desc>
-              Element Call (Beta)
+              Call (Beta)
             </desc>
             <circle
               cx="15"
@@ -162,7 +162,7 @@ exports[`should have a close button in widget mode 1`] = `
         class="nav leftNav"
       >
         <a
-          aria-label="Element Call Home"
+          aria-label="Call Home"
           class="headerLogo"
           data-discover="true"
           href="/"
@@ -175,7 +175,7 @@ exports[`should have a close button in widget mode 1`] = `
             xmlns="http://www.w3.org/2000/svg"
           >
             <desc>
-              Element Call (Beta)
+              Call (Beta)
             </desc>
             <circle
               cx="15"
@@ -284,7 +284,7 @@ exports[`should have a close button in widget mode 1`] = `
             Call is not supported
           </h1>
           <p>
-            The server is not configured to work with Element Call. Please contact your server admin (Domain: example.com, Error Code: MISSING_MATRIX_RTC_FOCUS).
+            The server is not configured to work with Call. Please contact your server admin (Domain: example.com, Error Code: MISSING_MATRIX_RTC_FOCUS).
           </p>
           <button
             class="_button_i91xf_17"
@@ -314,7 +314,7 @@ exports[`should render the error page with link back to home 1`] = `
         class="nav leftNav"
       >
         <a
-          aria-label="Element Call Home"
+          aria-label="Call Home"
           class="headerLogo"
           data-discover="true"
           href="/"
@@ -327,7 +327,7 @@ exports[`should render the error page with link back to home 1`] = `
             xmlns="http://www.w3.org/2000/svg"
           >
             <desc>
-              Element Call (Beta)
+              Call (Beta)
             </desc>
             <circle
               cx="15"
@@ -436,7 +436,7 @@ exports[`should render the error page with link back to home 1`] = `
             Call is not supported
           </h1>
           <p>
-            The server is not configured to work with Element Call. Please contact your server admin (Domain: example.com, Error Code: MISSING_MATRIX_RTC_FOCUS).
+            The server is not configured to work with Call. Please contact your server admin (Domain: example.com, Error Code: MISSING_MATRIX_RTC_FOCUS).
           </p>
           <button
             class="_button_i91xf_17 homeLink"
@@ -466,7 +466,7 @@ exports[`should report correct error for 'Call is not supported' 1`] = `
         class="nav leftNav"
       >
         <a
-          aria-label="Element Call Home"
+          aria-label="Call Home"
           class="headerLogo"
           data-discover="true"
           href="/"
@@ -479,7 +479,7 @@ exports[`should report correct error for 'Call is not supported' 1`] = `
             xmlns="http://www.w3.org/2000/svg"
           >
             <desc>
-              Element Call (Beta)
+              Call (Beta)
             </desc>
             <circle
               cx="15"
@@ -588,7 +588,7 @@ exports[`should report correct error for 'Call is not supported' 1`] = `
             Call is not supported
           </h1>
           <p>
-            The server is not configured to work with Element Call. Please contact your server admin (Domain: example.com, Error Code: MISSING_MATRIX_RTC_FOCUS).
+            The server is not configured to work with Call. Please contact your server admin (Domain: example.com, Error Code: MISSING_MATRIX_RTC_FOCUS).
           </p>
           <button
             class="_button_i91xf_17 homeLink"
@@ -618,7 +618,7 @@ exports[`should report correct error for 'Connection lost' 1`] = `
         class="nav leftNav"
       >
         <a
-          aria-label="Element Call Home"
+          aria-label="Call Home"
           class="headerLogo"
           data-discover="true"
           href="/"
@@ -631,7 +631,7 @@ exports[`should report correct error for 'Connection lost' 1`] = `
             xmlns="http://www.w3.org/2000/svg"
           >
             <desc>
-              Element Call (Beta)
+              Call (Beta)
             </desc>
             <circle
               cx="15"
@@ -768,7 +768,7 @@ exports[`should report correct error for 'Incompatible browser' 1`] = `
         class="nav leftNav"
       >
         <a
-          aria-label="Element Call Home"
+          aria-label="Call Home"
           class="headerLogo"
           data-discover="true"
           href="/"
@@ -781,7 +781,7 @@ exports[`should report correct error for 'Incompatible browser' 1`] = `
             xmlns="http://www.w3.org/2000/svg"
           >
             <desc>
-              Element Call (Beta)
+              Call (Beta)
             </desc>
             <circle
               cx="15"
@@ -915,7 +915,7 @@ exports[`should report correct error for 'Insufficient capacity' 1`] = `
         class="nav leftNav"
       >
         <a
-          aria-label="Element Call Home"
+          aria-label="Call Home"
           class="headerLogo"
           data-discover="true"
           href="/"
@@ -928,7 +928,7 @@ exports[`should report correct error for 'Insufficient capacity' 1`] = `
             xmlns="http://www.w3.org/2000/svg"
           >
             <desc>
-              Element Call (Beta)
+              Call (Beta)
             </desc>
             <circle
               cx="15"

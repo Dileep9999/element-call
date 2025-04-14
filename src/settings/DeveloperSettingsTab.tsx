@@ -62,7 +62,7 @@ export const DeveloperSettingsTab: FC<Props> = ({ client, livekitRoom }) => {
       </p>
       <p>
         {t("version", {
-          productName: import.meta.env.VITE_PRODUCT_NAME || "Element Call",
+          productName: import.meta.env.VITE_PRODUCT_NAME || "Call",
           version: import.meta.env.VITE_APP_VERSION || "dev",
         })}
       </p>

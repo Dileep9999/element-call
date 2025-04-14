@@ -28,7 +28,7 @@ export enum UserIntent {
 // If you need to add a new flag to this interface, prefer a name that describes
 // a specific behavior (such as 'confineToRoom'), rather than one that describes
 // the situations that call for this behavior ('isEmbedded'). This makes it
-// clearer what each flag means, and helps us avoid coupling Element Call's
+// clearer what each flag means, and helps us avoid coupling Call's
 // behavior to the needs of specific consumers.
 export interface UrlParams {
   // Widget api related params
@@ -107,11 +107,11 @@ export interface UrlParams {
    */
   posthogUserId: string | null;
   /**
-   * The Posthog API host. This is only used in the embedded package of Element Call.
+   * The Posthog API host. This is only used in the embedded package of Call.
    */
   posthogApiHost: string | null;
   /**
-   * The Posthog API key. This is only used in the embedded package of Element Call.
+   * The Posthog API key. This is only used in the embedded package of Call.
    */
   posthogApiKey: string | null;
   /**
@@ -165,16 +165,16 @@ export interface UrlParams {
   intent: string | null;
 
   /**
-   * The rageshake submit URL. This is only used in the embedded package of Element Call.
+   * The rageshake submit URL. This is only used in the embedded package of Call.
    */
   rageshakeSubmitUrl: string | null;
 
   /**
-   * The Sentry DSN. This is only used in the embedded package of Element Call.
+   * The Sentry DSN. This is only used in the embedded package of Call.
    */
   sentryDsn: string | null;
   /**
-   * The Sentry environment. This is only used in the embedded package of Element Call.
+   * The Sentry environment. This is only used in the embedded package of Call.
    */
   sentryEnvironment: string | null;
 }

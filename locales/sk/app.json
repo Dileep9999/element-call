@@ -46,7 +46,7 @@
   },
   "disconnected_banner": "Spojenie so serverom sa stratilo.",
   "hangup_button_label": "Ukončiť hovor",
-  "header_label": "Domov Element Call",
+  "header_label": "Domov Call",
   "header_participants_label": "Účastníci",
   "invite_modal": {
     "link_copied_toast": "Odkaz skopírovaný do schránky",

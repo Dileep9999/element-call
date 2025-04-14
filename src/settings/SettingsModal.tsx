@@ -151,9 +151,9 @@ export const SettingsModal: FC<Props> = ({
   if (isRageshakeAvailable() || import.meta.env.VITE_PACKAGE === "full") {
     // for full package we want to show the analytics consent checkbox
     // even if rageshake is not available
-    tabs.push(feedbackTab);
+    // tabs.push(feedbackTab);
   }
-  if (showDeveloperSettingsTab) tabs.push(developerTab);
+  // if (showDeveloperSettingsTab) tabs.push(developerTab);
 
   return (
     <Modal

@@ -105,14 +105,14 @@ export const RoomAuthView: FC = () => {
             <div id={recaptchaId} />
           </Form>
         </main>
-        <Text className={styles.footer}>
+        {/* <Text className={styles.footer}>
           <Trans i18nKey="unauthenticated_view_body">
             Not registered yet?{" "}
             <Link to="/register" state={{ from: location }}>
               Create an account
             </Link>
           </Trans>
-        </Text>
+        </Text> */}
       </div>
     </>
   );

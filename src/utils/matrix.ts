@@ -304,7 +304,7 @@ export async function createRoom(
 }
 
 /**
- * Returns an absolute URL to that will load Element Call with the given room
+ * Returns an absolute URL to that will load Call with the given room
  * @param roomId ID of the room
  * @param roomName Name of the room
  * @param encryptionSystem what encryption (or EncryptionSystem.Unencrypted) the room uses
@@ -321,7 +321,7 @@ export function getAbsoluteRoomUrl(
 }
 
 /**
- * Returns a relative URL to that will load Element Call with the given room
+ * Returns a relative URL to that will load Call with the given room
  * @param roomId ID of the room
  * @param roomName Name of the room
  * @param encryptionSystem what encryption (or EncryptionSystem.Unencrypted) the room uses

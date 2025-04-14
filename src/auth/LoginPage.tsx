@@ -128,16 +128,16 @@ export const LoginPage: FC = () => {
               </FieldRow>
             </form>
           </div>
-          <div className={styles.authLinks}>
+          {/* <div className={styles.authLinks}>
             <p>{t("login_auth_links_prompt")}</p>
             <p>
-              <Trans i18nKey="login_auth_links">
+              <Tra  ns i18nKey="login_auth_links">
                 <Link to="/register">Create an account</Link>
                 {" Or "}
                 <Link to="/">Access as a guest</Link>
-              </Trans>
+              </Tra>
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

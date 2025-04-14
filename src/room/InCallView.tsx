@@ -603,7 +603,7 @@ export const InCallView: FC<InCallViewProps> = ({
           <LogoType
             width={80}
             height={11}
-            aria-label={import.meta.env.VITE_PRODUCT_NAME || "Element Call"}
+            aria-label={import.meta.env.VITE_PRODUCT_NAME || "Call"}
           />
           {/* Don't mind this odd placement, it's just a little debug label */}
           {debugTileLayout

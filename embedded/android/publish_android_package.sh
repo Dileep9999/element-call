@@ -9,7 +9,7 @@ CURRENT_DIR=$( dirname -- "${BASH_SOURCE[0]}" )
 pushd $CURRENT_DIR > /dev/null
 
 function build_assets() {
-	echo "Generating Element Call assets..."
+	echo "Generating Call assets..."
 	pushd ../..  > /dev/null
 	yarn build
 	popd  > /dev/null
@@ -21,7 +21,7 @@ function copy_assets() {
 		mkdir -p $EC_ASSETS_FOLDER
 	fi
 
-	echo "Copying generated Element Call assets to the Android project..."
+	echo "Copying generated Call assets to the Android project..."
 	cp -R ../../dist/* $EC_ASSETS_FOLDER
 }
 

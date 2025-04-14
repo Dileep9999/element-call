@@ -10,7 +10,7 @@ import { test, expect } from "@playwright/test";
 test("has title", async ({ page }) => {
   await page.goto("/");
 
-  await expect(page).toHaveTitle(/Element Call/);
+  await expect(page).toHaveTitle(/Call/);
 });
 
 test("Landing page", async ({ page }) => {

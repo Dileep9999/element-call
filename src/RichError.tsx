@@ -39,7 +39,7 @@ const OpenElsewhere: FC = () => {
     >
       <p>
         {t("error.open_elsewhere_description", {
-          brand: import.meta.env.VITE_PRODUCT_NAME || "Element Call",
+          brand: import.meta.env.VITE_PRODUCT_NAME || "Call",
         })}
       </p>
     </ErrorView>

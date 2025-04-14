@@ -101,7 +101,7 @@
     "reason": "Reason: {{reason}}"
   },
   "hangup_button_label": "End call",
-  "header_label": "Element Call Home",
+  "header_label": "Call Home",
   "header_participants_label": "Participants",
   "invite_modal": {
     "link_copied_toast": "Link copied to clipboard",

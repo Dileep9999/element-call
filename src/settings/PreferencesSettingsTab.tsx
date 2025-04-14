@@ -76,7 +76,7 @@ export const PreferencesSettingsTab: FC = () => {
           onChange={(e) => onChangeSetting(e, setPlayReactionSound)}
         />
       </FieldRow>
-      <FieldRow>
+      {/* <FieldRow>
         <InputField
           id="developerSettingsTab"
           type="checkbox"
@@ -89,7 +89,7 @@ export const PreferencesSettingsTab: FC = () => {
             setDeveloperMode(event.target.checked)
           }
         />
-      </FieldRow>
+      </FieldRow> */}
     </div>
   );
 };

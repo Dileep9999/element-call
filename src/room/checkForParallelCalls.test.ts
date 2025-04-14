@@ -47,7 +47,7 @@ test("checkForParallelCalls does nothing if all participants are in the same cal
               "m.call_id": "1",
               "m.devices": [
                 {
-                  device_id: "Element Call",
+                  device_id: "Call",
                   session_id: "a",
                   expires_ts: Date.now() + 1000,
                 },
@@ -98,7 +98,7 @@ test("checkForParallelCalls sends diagnostics to PostHog if there is a split-bra
               "m.call_id": "1",
               "m.devices": [
                 {
-                  device_id: "Element Call",
+                  device_id: "Call",
                   session_id: "a",
                   expires_ts: Date.now() + 1000,
                 },
@@ -132,7 +132,7 @@ test("checkForParallelCalls sends diagnostics to PostHog if there is a split-bra
               "m.call_id": "2",
               "m.devices": [
                 {
-                  device_id: "Element Call",
+                  device_id: "Call",
                   session_id: "a",
                   expires_ts: Date.now() - 1000,
                 },

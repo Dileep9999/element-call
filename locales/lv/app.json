@@ -35,7 +35,7 @@
     "username": "Lietotājvārds"
   },
   "disconnected_banner": "Ir zaudēts savienojums ar serveri.",
-  "header_label": "Element Call sākums",
+  "header_label": "Call sākums",
   "join_existing_call_modal": {
     "join_button": "Jā, pievienoties zvanam",
     "text": "Šis zvans jau pastāv. Vai vēlies pievienoties?",

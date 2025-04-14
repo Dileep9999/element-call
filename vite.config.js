@@ -36,7 +36,7 @@ export default defineConfig(({ mode, packageType }) => {
       entry: "src/main.tsx",
       inject: {
         data: {
-          brand: env.VITE_PRODUCT_NAME || "Element Call",
+          brand: env.VITE_PRODUCT_NAME || "Call",
           packageType: process.env.VITE_PACKAGE,
         },
       },

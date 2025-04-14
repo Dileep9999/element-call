@@ -48,7 +48,7 @@
   },
   "disconnected_banner": "Utracono połączenie z serwerem.",
   "hangup_button_label": "Zakończ połączenie",
-  "header_label": "Strona główna Element Call",
+  "header_label": "Strona główna Call",
   "header_participants_label": "Uczestnicy",
   "invite_modal": {
     "link_copied_toast": "Skopiowano link do schowka",

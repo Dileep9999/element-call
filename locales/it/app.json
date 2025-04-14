@@ -43,7 +43,7 @@
   },
   "disconnected_banner": "La connessione al server è stata persa.",
   "hangup_button_label": "Termina chiamata",
-  "header_label": "Inizio di Element Call",
+  "header_label": "Inizio di Call",
   "header_participants_label": "Partecipanti",
   "invite_modal": {
     "link_copied_toast": "Collegamento copiato negli appunti",

@@ -101,7 +101,7 @@
     "reason": "Grund: {{reason}}"
   },
   "hangup_button_label": "Anruf beenden",
-  "header_label": "Element Call-Startseite",
+  "header_label": "Call-Startseite",
   "header_participants_label": "Teilnehmende",
   "invite_modal": {
     "link_copied_toast": "Link in Zwischenablage kopiert",

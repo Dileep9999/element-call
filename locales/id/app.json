@@ -45,7 +45,7 @@
   },
   "disconnected_banner": "Koneksi ke server telah hilang.",
   "hangup_button_label": "Akhiri panggilan",
-  "header_label": "Beranda Element Call",
+  "header_label": "Beranda Call",
   "header_participants_label": "Peserta",
   "invite_modal": {
     "link_copied_toast": "Tautan disalin ke papan klip",

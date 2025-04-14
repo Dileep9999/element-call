@@ -8,7 +8,7 @@ Please see LICENSE in the repository root for full details.
 export interface ConfigOptions {
   /**
    * The Posthog endpoint to which analytics data will be sent.
-   * This is only used in the full package of Element Call.
+   * This is only used in the full package of Call.
    */
   posthog?: {
     api_key: string;
@@ -16,7 +16,7 @@ export interface ConfigOptions {
   };
   /**
    * The Sentry endpoint to which crash data will be sent.
-   * This is only used in the full package of Element Call.
+   * This is only used in the full package of Call.
    */
   sentry?: {
     DSN: string;
@@ -24,7 +24,7 @@ export interface ConfigOptions {
   };
   /**
    * The rageshake server to which feedback and debug logs will be sent.
-   * This is only used in the full package of Element Call.
+   * This is only used in the full package of Call.
    */
   rageshake?: {
     submit_url: string;
@@ -32,7 +32,7 @@ export interface ConfigOptions {
 
   /**
    * Sets the URL to send opentelemetry data to. If unset, opentelemetry will
-   * be disabled. This is only used in the full package of Element Call.
+   * be disabled. This is only used in the full package of Call.
    */
   opentelemetry?: {
     collector_url: string;
@@ -70,7 +70,7 @@ export interface ConfigOptions {
      * Send device-specific call session membership state events instead of
      * legacy user-specific call membership state events.
      * This setting has no effect when the user joins an active call with
-     * legacy state events. For compatibility, Element Call will always join
+     * legacy state events. For compatibility, Call will always join
      * active legacy calls with legacy state events.
      */
     feature_use_device_session_member_events?: boolean;

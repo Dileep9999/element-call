@@ -34,7 +34,7 @@
     "username": "Имя пользователя",
     "video": "Видео"
   },
-  "header_label": "Главная Element Call",
+  "header_label": "Главная Call",
   "join_existing_call_modal": {
     "join_button": "Да, присоединиться",
     "text": "Этот звонок уже существует, хотите присоединиться?",

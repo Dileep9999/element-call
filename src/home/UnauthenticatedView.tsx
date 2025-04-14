@@ -214,14 +214,14 @@ export const UnauthenticatedView: FC = () => {
               {t("unauthenticated_view_login_button")}
             </Link>
           </Text>
-          <Text>
+          {/* <Text>
             <Trans i18nKey="unauthenticated_view_body">
               Not registered yet?{" "}
               <Link to="/register" data-testid="home_register">
                 Create an account
               </Link>
             </Trans>
-          </Text>
+          </Text> */}
         </footer>
       </div>
       {onFinished && (
