@@ -184,14 +184,14 @@ export const UnauthenticatedView: FC = () => {
                 <AnalyticsNotice />
               </Text>
             )}
-            <Text size="sm" className={styles.notice}>
+            {/* <Text size="sm" className={styles.notice}>
               <Trans i18nKey="unauthenticated_view_eula_caption">
                 By clicking "Go", you agree to our{" "}
                 <ExternalLink href={Config.get().eula}>
                   End User Licensing Agreement (EULA)
                 </ExternalLink>
               </Trans>
-            </Text>
+            </Text> */}
             {error && (
               <FieldRow>
                 <ErrorMessage error={error} />

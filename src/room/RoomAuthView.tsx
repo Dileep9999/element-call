@@ -79,14 +79,14 @@ export const RoomAuthView: FC = () => {
                 autoComplete="off"
               />
             </FieldRow>
-            <Text size="sm">
+            {/* <Text size="sm">
               <Trans i18nKey="room_auth_view_eula_caption">
                 By clicking "Join call now", you agree to our{" "}
                 <ExternalLink href={Config.get().eula}>
                   End User Licensing Agreement (EULA)
                 </ExternalLink>
               </Trans>
-            </Text>
+            </Text> */}
             {error && (
               <FieldRow>
                 <ErrorMessage error={error} />
